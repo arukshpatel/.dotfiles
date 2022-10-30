@@ -6,6 +6,9 @@ brew install git
 brew install stow
 brew install nvm
 
+# Github CLI
+brew install gh
+
 # Create SYMLinks
 stow oh-my-zsh
 stow powerlevel10k
