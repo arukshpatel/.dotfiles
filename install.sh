@@ -1,13 +1,12 @@
 # install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Homebrew packages
+# Install Homebrew packages (git, git-secret, gh (GitHub cli), stow, nvm)
 brew install git
+brew install git-secret
+# brew install gh
 brew install stow
 brew install nvm
-
-# Github CLI
-brew install gh
 
 # Create SYMLinks
 stow oh-my-zsh
