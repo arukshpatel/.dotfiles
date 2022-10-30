@@ -12,6 +12,9 @@ brew install nvm
 stow oh-my-zsh
 stow powerlevel10k
 stow zsh
+stow git
+stow git-cli
+stow gpg
 
 # Make necessary directories
 mkdir ~/.nvm
