@@ -4,3 +4,5 @@
 	name = Aruksh Patel
 	email = arukshpatel98@gmail.com
 	username = arukshpatel
+[credential]
+	helper = osxkeychain

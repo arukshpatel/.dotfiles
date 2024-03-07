@@ -1,11 +1,29 @@
-**/.DS_Store
+# MACOS Default
+
+.DS_Store
+
+# git files
+
 .gitsecret/keys/random_seed
 !*.secret
 git-cli/.config/gh/hosts.yml
-gpg/.gnupg/pubring.kbx
-gpg/.gnupg/pubring.kbx~
-gpg/.gnupg/public-key.gpg
-gpg/.gnupg/trustdb.gpg
-gpg/.gnupg/private-keys-v1.d/34B4420ECEF2788560CA715A8513435511E358D7.key
-gpg/.gnupg/private-keys-v1.d/B52CF03471A05D5B203AE518F213AA56259E3C0E.key
-gpg/.gnupg/openpgp-revocs.d/CDDDA1D055E0C8F2FA9F9B4DCB26A48357B3C80F.rev
+
+# gpg Keys
+
+gpg/**/*/pub*.kbx*
+gpg/**/*/*key*
+gpg/**/*/*.local*
+gpg/**/*/*gpg*
+gpg/**/*/*rev*
+
+# .npm | .nvm folders
+
+.n[pv]m/
+node_modules/
+
+# iTerm symlink
+
+AppSupport
+
+# VSCode
+**/*/extensions/
