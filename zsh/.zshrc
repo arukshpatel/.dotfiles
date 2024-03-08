@@ -28,7 +28,7 @@ export ZSH_COMPDUMP="${HOME}/.cache/zsh/.zcompdump-${USER}-${ZSH_VERSION}"
 export HISTFILE="${HOME}/.cache/zsh/.zsh_history"
 
 # Change LESS History file directory
-export LESSHISTFILE="${HOME}/.cache/"
+export LESSHISTFILE="${HOME}/.cache/LESS/"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
