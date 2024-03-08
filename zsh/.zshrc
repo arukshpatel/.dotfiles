@@ -162,3 +162,6 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+# Homebrew sbin
+export PATH="/usr/local/sbin:$PATH"
