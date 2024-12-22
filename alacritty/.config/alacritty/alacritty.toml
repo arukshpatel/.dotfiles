@@ -1,0 +1,32 @@
+
+[env]
+    COLORTERM = "xterm-color256"
+    TERM      = "xterm-256color"
+
+[window]
+    blur        = true
+    decorations = "buttonless"
+    #dynamic_padding = true
+    dynamic_title = true
+    padding       = { x = 3, y = 5 }
+    #opacity         = 0.85
+
+[font]
+    glyph_offset.x = 2
+    normal.family  = "MesloLGS NF"
+    size           = 14
+
+[cursor.style]
+    blinking = "On"
+
+[[hints.enabled]]
+    command         = "open"
+    hyperlinks      = true
+    mouse.enabled   = true
+    post_processing = true
+    regex           = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
+
+[general]
+
+live_config_reload = true
+import = ["~/.config/alacritty/git-themes/themes/catppuccin_macchiato.toml"]

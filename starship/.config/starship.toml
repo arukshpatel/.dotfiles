@@ -1,0 +1,318 @@
+# Sets user-defined palette
+palette = "catppuccin_macchiato"
+
+[character]
+    # Note the use of Catppuccin color 'maroon'
+    error_symbol   = "[❯](red)"
+    success_symbol = "[[♥](green) ❯](maroon)"
+    vimcmd_symbol  = "[❮](green)"
+
+[directory]
+    truncation_length = 4
+    # Catppuccin 'lavender'
+    style = "bold lavender"
+
+# palette tables should be last in the config ⚓️
+[palettes.catppuccin_macchiato]
+    base      = "#24273a"
+    blue      = "#8aadf4"
+    crust     = "#181926"
+    flamingo  = "#f0c6c6"
+    green     = "#a6da95"
+    lavender  = "#b7bdf8"
+    mantle    = "#1e2030"
+    maroon    = "#ee99a0"
+    mauve     = "#c6a0f6"
+    overlay0  = "#6e738d"
+    overlay1  = "#8087a2"
+    overlay2  = "#939ab7"
+    peach     = "#f5a97f"
+    pink      = "#f5bde6"
+    red       = "#ed8796"
+    rosewater = "#f4dbd6"
+    sapphire  = "#7dc4e4"
+    sky       = "#91d7e3"
+    subtext0  = "#a5adcb"
+    subtext1  = "#b8c0e0"
+    surface0  = "#363a4f"
+    surface1  = "#494d64"
+    surface2  = "#5b6078"
+    teal      = "#8bd5ca"
+    text      = "#cad3f5"
+    yellow    = "#eed49f"
+
+[palettes.catppuccin_frappe]
+    base      = "#303446"
+    blue      = "#8caaee"
+    crust     = "#232634"
+    flamingo  = "#eebebe"
+    green     = "#a6d189"
+    lavender  = "#babbf1"
+    mantle    = "#292c3c"
+    maroon    = "#ea999c"
+    mauve     = "#ca9ee6"
+    overlay0  = "#737994"
+    overlay1  = "#838ba7"
+    overlay2  = "#949cbb"
+    peach     = "#ef9f76"
+    pink      = "#f4b8e4"
+    red       = "#e78284"
+    rosewater = "#f2d5cf"
+    sapphire  = "#85c1dc"
+    sky       = "#99d1db"
+    subtext0  = "#a5adce"
+    subtext1  = "#b5bfe2"
+    surface0  = "#414559"
+    surface1  = "#51576d"
+    surface2  = "#626880"
+    teal      = "#81c8be"
+    text      = "#c6d0f5"
+    yellow    = "#e5c890"
+
+[palettes.catppuccin_latte]
+    base      = "#eff1f5"
+    blue      = "#1e66f5"
+    crust     = "#dce0e8"
+    flamingo  = "#dd7878"
+    green     = "#40a02b"
+    lavender  = "#7287fd"
+    mantle    = "#e6e9ef"
+    maroon    = "#e64553"
+    mauve     = "#8839ef"
+    overlay0  = "#9ca0b0"
+    overlay1  = "#8c8fa1"
+    overlay2  = "#7c7f93"
+    peach     = "#fe640b"
+    pink      = "#ea76cb"
+    red       = "#d20f39"
+    rosewater = "#dc8a78"
+    sapphire  = "#209fb5"
+    sky       = "#04a5e5"
+    subtext0  = "#6c6f85"
+    subtext1  = "#5c5f77"
+    surface0  = "#ccd0da"
+    surface1  = "#bcc0cc"
+    surface2  = "#acb0be"
+    teal      = "#179299"
+    text      = "#4c4f69"
+    yellow    = "#df8e1d"
+
+[palettes.catppuccin_mocha]
+    base      = "#1e1e2e"
+    blue      = "#89b4fa"
+    crust     = "#11111b"
+    flamingo  = "#f2cdcd"
+    green     = "#a6e3a1"
+    lavender  = "#b4befe"
+    mantle    = "#181825"
+    maroon    = "#eba0ac"
+    mauve     = "#cba6f7"
+    overlay0  = "#6c7086"
+    overlay1  = "#7f849c"
+    overlay2  = "#9399b2"
+    peach     = "#fab387"
+    pink      = "#f5c2e7"
+    red       = "#f38ba8"
+    rosewater = "#f5e0dc"
+    sapphire  = "#74c7ec"
+    sky       = "#89dceb"
+    subtext0  = "#a6adc8"
+    subtext1  = "#bac2de"
+    surface0  = "#313244"
+    surface1  = "#45475a"
+    surface2  = "#585b70"
+    teal      = "#94e2d5"
+    text      = "#cdd6f4"
+    yellow    = "#f9e2af"
+
+[aws]
+    format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
+
+[bun]
+    format = '\[[$symbol($version)]($style)\]'
+
+[c]
+    format = '\[[$symbol($version(-$name))]($style)\]'
+
+[cmake]
+    format = '\[[$symbol($version)]($style)\]'
+
+[cmd_duration]
+    format = '\[[⏱ $duration]($style)\]'
+
+[cobol]
+    format = '\[[$symbol($version)]($style)\]'
+
+[conda]
+    format = '\[[$symbol$environment]($style)\]'
+
+[crystal]
+    format = '\[[$symbol($version)]($style)\]'
+
+[daml]
+    format = '\[[$symbol($version)]($style)\]'
+
+[dart]
+    format = '\[[$symbol($version)]($style)\]'
+
+[deno]
+    format = '\[[$symbol($version)]($style)\]'
+
+[docker_context]
+    format = '\[[$symbol$context]($style)\]'
+
+[dotnet]
+    format = '\[[$symbol($version)(🎯 $tfm)]($style)\]'
+
+[elixir]
+    format = '\[[$symbol($version \(OTP $otp_version\))]($style)\]'
+
+[elm]
+    format = '\[[$symbol($version)]($style)\]'
+
+[erlang]
+    format = '\[[$symbol($version)]($style)\]'
+
+[fennel]
+    format = '\[[$symbol($version)]($style)\]'
+
+[fossil_branch]
+    format = '\[[$symbol$branch]($style)\]'
+
+[gcloud]
+    format = '\[[$symbol$account(@$domain)(\($region\))]($style)\]'
+
+[git_branch]
+    format = '\[[$symbol$branch]($style)\]'
+
+[git_status]
+    format = '([\[$all_status$ahead_behind\]]($style))'
+
+[golang]
+    format = '\[[$symbol($version)]($style)\]'
+
+[gradle]
+    format = '\[[$symbol($version)]($style)\]'
+
+[guix_shell]
+    format = '\[[$symbol]($style)\]'
+
+[haskell]
+    format = '\[[$symbol($version)]($style)\]'
+
+[haxe]
+    format = '\[[$symbol($version)]($style)\]'
+
+[helm]
+    format = '\[[$symbol($version)]($style)\]'
+
+[hg_branch]
+    format = '\[[$symbol$branch]($style)\]'
+
+[java]
+    format = '\[[$symbol($version)]($style)\]'
+
+[julia]
+    format = '\[[$symbol($version)]($style)\]'
+
+[kotlin]
+    format = '\[[$symbol($version)]($style)\]'
+
+[kubernetes]
+    format = '\[[$symbol$context( \($namespace\))]($style)\]'
+
+[lua]
+    format = '\[[$symbol($version)]($style)\]'
+
+[memory_usage]
+    format = '\[$symbol[$ram( | $swap)]($style)\]'
+
+[meson]
+    format = '\[[$symbol$project]($style)\]'
+
+[nim]
+    format = '\[[$symbol($version)]($style)\]'
+
+[nix_shell]
+    format = '\[[$symbol$state( \($name\))]($style)\]'
+
+[nodejs]
+    format = '\[[$symbol($version)]($style)\]'
+
+[ocaml]
+    format = '\[[$symbol($version)(\($switch_indicator$switch_name\))]($style)\]'
+
+[opa]
+    format = '\[[$symbol($version)]($style)\]'
+
+[openstack]
+    format = '\[[$symbol$cloud(\($project\))]($style)\]'
+
+[os]
+    format = '\[[$symbol]($style)\]'
+
+[package]
+    format = '\[[$symbol$version]($style)\]'
+
+[perl]
+    format = '\[[$symbol($version)]($style)\]'
+
+[php]
+    format = '\[[$symbol($version)]($style)\]'
+
+[pijul_channel]
+    format = '\[[$symbol$channel]($style)\]'
+
+[pulumi]
+    format = '\[[$symbol$stack]($style)\]'
+
+[purescript]
+    format = '\[[$symbol($version)]($style)\]'
+
+[python]
+    format = '\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\]'
+
+[raku]
+    format = '\[[$symbol($version-$vm_version)]($style)\]'
+
+[red]
+    format = '\[[$symbol($version)]($style)\]'
+
+[ruby]
+    format = '\[[$symbol($version)]($style)\]'
+
+[rust]
+    format = '\[[$symbol($version)]($style)\]'
+
+[scala]
+    format = '\[[$symbol($version)]($style)\]'
+
+[spack]
+    format = '\[[$symbol$environment]($style)\]'
+
+[sudo]
+    format = '\[[as $symbol]($style)\]'
+
+[swift]
+    format = '\[[$symbol($version)]($style)\]'
+
+[terraform]
+    format = '\[[$symbol$workspace]($style)\]'
+
+[time]
+    format = '\[[$time]($style)\]'
+
+[username]
+    format = '\[[$user]($style)\]'
+
+[vagrant]
+    format = '\[[$symbol($version)]($style)\]'
+
+[vlang]
+    format = '\[[$symbol($version)]($style)\]'
+
+[zig]
+    format = '\[[$symbol($version)]($style)\]'
+
+[solidity]
+    format = '\[[$symbol($version)]($style)\]'
