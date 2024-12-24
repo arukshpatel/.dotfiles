@@ -1,7 +1,7 @@
 ### 3 - ZSHRC ###
 
 # Homebrew sbin
-export PATH="/usr/local/sbin:$PATH"
+# export PATH="/usr/local/sbin:$PATH"
 
 # Source zsh plugins
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -17,8 +17,10 @@ alias home="cd ~"
 alias ..="cd .."
 alias x="exit"
 
+# ls > fzf Alias
+alias ls="eza"
 
-# nvim
+# nvm 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion 
