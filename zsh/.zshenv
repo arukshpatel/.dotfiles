@@ -12,4 +12,6 @@ export XDG_STATE_HOME=$HOME/.local/state/
 
 export LESSHISTFILE=-
 
-#export ZDOTDIR="$HOME/.cache"
+export EDITOR=nvim
+
+export VISUAL=nvim

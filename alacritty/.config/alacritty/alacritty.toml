@@ -6,14 +6,14 @@
 [window]
     blur        = true
     decorations = "buttonless"
-    #dynamic_padding = true
+    dynamic_padding = true
     dynamic_title = true
     padding       = { x = 3, y = 5 }
     #opacity         = 0.85
 
 [font]
     glyph_offset.x = 2
-    normal.family  = "MesloLGS NF"
+    normal.family  = "Hack Nerd Font"
     size           = 14
 
 [cursor.style]

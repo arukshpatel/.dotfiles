@@ -1,10 +1,14 @@
 # Sets user-defined palette
+add_newline = false
 palette = "catppuccin_macchiato"
+format = """$directory$character"""
+right_format = """$all"""
+command_timeout = 1000
 
 [character]
     # Note the use of Catppuccin color 'maroon'
-    error_symbol   = "[❯](red)"
-    success_symbol = "[[♥](green) ❯](maroon)"
+    error_symbol   = "[➜](bold red)"
+    success_symbol = "[➜](bold green)"
     vimcmd_symbol  = "[❮](green)"
 
 [directory]
@@ -183,7 +187,7 @@ palette = "catppuccin_macchiato"
     format = '\[[$symbol$account(@$domain)(\($region\))]($style)\]'
 
 [git_branch]
-    format = '\[[$symbol$branch]($style)\]'
+    format = '\[[$symbol$branch(:$remote_branch)]($style)\]'
 
 [git_status]
     format = '([\[$all_status$ahead_behind\]]($style))'
