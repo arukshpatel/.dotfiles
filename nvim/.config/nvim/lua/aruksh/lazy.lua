@@ -11,12 +11,13 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({ { import = "aruksh.plugins" }, { import = "aruksh.plugins.lsp" } }, {
+require("lazy").setup({ { import = "aruksh.plugins" }, { import = "aruksh.plugins.lsp" }},
+    {
         checker = {
-                enabled = true,
-                notify = false,
+            enabled = true,
+            notify = false,
         },
-        change_direction = {
-                notify = false,
+        change_detection = {
+            notify = false,
         },
-})
+    })
