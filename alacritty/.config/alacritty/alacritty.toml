@@ -1,6 +1,6 @@
 
 [env]
-    COLORTERM = "xterm-color256"
+    COLORTERM = "xterm-256color"
     TERM      = "xterm-256color"
 
 [window]
@@ -9,7 +9,7 @@
     dynamic_padding = true
     dynamic_title = true
     padding       = { x = 3, y = 5 }
-    #opacity         = 0.85
+    opacity         = 0.85
 
 [font]
     glyph_offset.x = 2
