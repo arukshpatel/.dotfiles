@@ -6,7 +6,6 @@ return {
         "hrsh7th/cmp-path",
         {
             "L3MON4D3/LuaSnip",
-            
             version = "v2.*",
             build = "make install_jsregexp",
         },
@@ -18,7 +17,7 @@ return {
         local cmp = require("cmp")
         local luasnip = require("luasnip")
         local lspkind = require("lspkind")
-        
+
         require("luasnip.loaders.from_vscode").lazy_load()
 
         cmp.setup({
@@ -40,7 +39,7 @@ return {
                 ["<CR>"] = cmp.mapping.confirm({ select = false }),
             }),
             sources = cmp.config.sources({
-                --{ name = "nvim_lsp" },
+                { name = "nvim_lsp" },
                 { name = "luasnip" },
                 { name = "buffer" },
                 { name = "path" },

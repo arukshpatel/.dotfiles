@@ -2,7 +2,7 @@ vim.g.mapleader = " "
 
 local keymap = vim.keymap -- for conciseness
 
-keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
+keymap.set({"i","v"}, "jk", "<ESC>", { desc = "Exit insert/visual mode with jk" })
 -- keymap.set("v", "gh", "<ESC>", {desc = "Exit visual mode with gh"})
 
 
