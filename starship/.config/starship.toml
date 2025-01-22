@@ -3,12 +3,13 @@ add_newline = false
 palette = "catppuccin_macchiato"
 format = """$directory$character"""
 right_format = """$all"""
+continuation_prompt = '▶▶'
 command_timeout = 1000
 
 [character]
     # Note the use of Catppuccin color 'maroon'
-    error_symbol   = "[➜](bold red)"
-    success_symbol = "[➜](bold green)"
+    error_symbol   = "[❯](bold red)"
+    success_symbol = "[❯](bold green)"
     vimcmd_symbol  = "[❮](green)"
 
 [directory]
