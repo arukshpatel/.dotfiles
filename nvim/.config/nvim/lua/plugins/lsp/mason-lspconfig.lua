@@ -23,7 +23,7 @@ return {
                     -- "arduino_language_server", -- Arduino
                     -- "astro", -- Astro
                     -- "bashls", -- Bash
-                    -- "csharp_ls", -- C#
+                    "csharp_ls", -- C#
                     -- "clangd", -- C
                     -- "cmake", --CMake
                     "cssls", -- CSS
