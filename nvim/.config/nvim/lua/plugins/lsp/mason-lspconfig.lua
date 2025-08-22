@@ -1,6 +1,7 @@
 return {
     {
         "williamboman/mason.nvim",
+        lazy = false,
         config = function ()
             require("mason").setup({
                 ui = {
@@ -12,10 +13,10 @@ return {
                 }
             })
         end
-        
     },
     {
         "williamboman/mason-lspconfig.nvim",
+        lazy = false,
         config = function ()
             require("mason-lspconfig").setup({
                 ensure_installed = {
@@ -35,6 +36,7 @@ return {
                     -- "htmx", -- HTMX
                     -- "jdtls", -- Eclipse JAVA
                     "denols", -- Deno's built in TypeScript / JavsScript
+                    "ts_ls", -- TypeScript server
                     "vtsls", -- VSCodes JS/TS language server
                     "jsonls", -- VSCodes JSON language server
                     -- "kotlin_language_server", -- Kotlin
@@ -52,14 +54,10 @@ return {
                     "lemminx", -- XML
                     "yamlls" -- YAML
                 },
+                opts = {
+                    auto_install = false,
+                }
             })
         end
     },
-    {
-        "neovim/nvim-lspconfig",
-        config = function ()
-            local lspconfig = require("lspconfig")
-            lspconfig.lua_ls.setup({})
-        end
-    }
 }

@@ -1,4 +1,6 @@
 ### 3 - ZSHRC ###
+# Note to self:
+# xcode-select -p was set to path: "/Library/Developer/CommandLineTools"
 
 # Homebrew
 eval "$(brew shellenv)"
@@ -29,6 +31,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 # [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion 
 
+# dotnet (.Net)
+# export DOTNET_ROOT="/usr/local/opt/dotnet@8/libexec"
+# export PATH="$PATH:$DOTNET_ROOT:/usr/local/opt/dotnet@8/bin"
+# site-functions
+# fpath+="/usr/local/opt/dotnet@8/share/zsh/site-functions"
+
 # Enable CLI Colors for ZSH? Could never get it to work...
 export COLORTERM="xterm-256color"
 HISTFILE=$XDG_CACHE_HOME/zsh/.zsh_history 
@@ -39,11 +47,3 @@ bindkey "^[[B" history-search-forward
 
 # Starship
 eval "$(starship init zsh)"
-
-
-# prompt at bottom
-# tput cup $Lines 0
-# end=$(tput cup $LINES 0)
-# echo $end
-# alias clear='clear; echo $end'
-# bindkey "^L" clear-screen 

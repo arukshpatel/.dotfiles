@@ -5,4 +5,4 @@ adjust-cell-height = 35%
 window-colorspace = display-p3
 window-inherit-font-size=true
 shell-integration = zsh
-window-decoration=false
+window-decoration=true

@@ -20,3 +20,6 @@ export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/h
 
 export skip_global_compinit=1
 export ZSH_DISABLE_COMPFIX="true"
+
+export DOTNET_ROOT="/usr/local/share/dotnet/"
+export PATH="$DOTNET_ROOT:$PATH"

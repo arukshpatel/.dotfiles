@@ -82,6 +82,9 @@ return {
                     node_decremental = "<bs>",
                 },
             },
+
+            -- auto install above language parsers
+            auto_install = false,
         })
     end,
 }
